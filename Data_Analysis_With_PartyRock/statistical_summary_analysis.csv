@@ -1,0 +1,38 @@
+pollutant,units,total_measurements,average_value,minimum_value,maximum_value,percentile_25th,median_value,percentile_75th,std_deviation
+pm10,Âµg/mÂ³,737,19.49,2,106,9,15,24,15.83
+pm25,Âµg/mÂ³,737,5.74,0.8,39.9,2.8,4.3,7.3,4.56
+o3,ppm,728,0.02,0,0.05,0.01,0.02,0.03,0.01
+no2,ppm,666,0.03,0,0.13,0.01,0.02,0.04,0.02
+co,ppm,727,0.26,0,1.1,0.1,0.2,0.4,0.2
+so2,ppm,689,0,0,0,0,0,0,0
+,,,,,,,,,
+,,,,,,,,,
+"Generate a summary analysis table showing average, minimum, and maximum values for each air pollutant.",,,,,,,,,
+Query executed,,,,,,,,,
+Here's the comprehensive summary analysis table for all air pollutants monitored at the Del Norte location:,,,,,,,,,
+,,,,,,,,,
+Air Quality Summary Statistics,,,,,,,,,
+,,,,,,,,,
+Pollutant,Units,Total Measurements,Average,Minimum,Maximum,25th %,Median,75th %,Std Dev
+PM10,µg/m³,737,19.486,2.0,106.0,9.0,15.0,24.0,15.831
+PM2.5,µg/m³,737,5.741,0.8,39.9,2.8,4.3,7.3,4.562
+CO,ppm,727,0.263,0.0,1.1,0.1,0.2,0.4,0.196
+NO2,ppm,666,0.027,0.003,0.133,0.01,0.019,0.04,0.023
+O3,ppm,728,0.021,0.002,0.047,0.007,0.022,0.033,0.013
+SO2,ppm,689,0.0,0.0,0.003,0.0,0.0,0.001,0.0
+Key Findings:,,,,,,,,,
+Particulate Matter (PM):,,,,,,,,,
+,,,,,,,,,
+PM10 shows the highest variability with a standard deviation of 15.8 µg/m³ and a maximum spike to 106 µg/m³ (5.4x the average),,,,,,,,,
+PM2.5 is more stable but still reached 39.9 µg/m³ during peak pollution events,,,,,,,,,
+"The median PM10 (15 µg/m³) is below the average (19.5 µg/m³), indicating occasional high pollution episodes skew the distribution",,,,,,,,,
+,,,,,,,,,
+Gaseous Pollutants:,,,,,,,,,
+,,,,,,,,,
+Carbon monoxide averaged 0.263 ppm with peaks up to 1.1 ppm during high pollution periods,,,,,,,,,
+Nitrogen dioxide remained relatively low (0.027 ppm average) with maximum of 0.133 ppm,,,,,,,,,
+Ozone showed consistent levels around 0.021 ppm with minimal variation,,,,,,,,,
+Sulfur dioxide was essentially absent (effectively zero throughout monitoring period),,,,,,,,,
+,,,,,,,,,
+Data Coverage:,,,,,,,,,
+"All pollutants had robust measurement coverage with 666-737 readings each over the 32-day monitoring period, providing reliable statistical representation of air quality conditions at this location.",,,,,,,,,

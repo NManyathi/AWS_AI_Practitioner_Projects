@@ -1,0 +1,39 @@
+location,location_id,lat,lon,days_monitored,total_measurements,pollutants_tracked,monitoring_start,monitoring_end,,Which locations or dates recorded the highest pollution levels and what patterns can be observed?
+Del Norte-2178,2178,35.135,-106.585,32,4284,6,2025/12/01 08:00,2026/01/01 07:00,,
+,,,,,,,,,,I'll analyze the location information along with the pollution patterns we've already identified.
+,,,,,,,,,,Location Analysis:
+sensors_id,pollutant,measurement_count,avg_value,max_value,first_reading,last_reading,,,,
+3916,no2,666,0.03,0.13,2025/12/01 08:00,2026/01/01 07:00,,,,"This dataset monitors a single location: Del Norte-2178 in New Mexico (coordinates: 35.1353°N, -106.5847°W). This location is near Albuquerque, New Mexico. The monitoring station tracked 6 pollutants using 6 different sensors over 32 days (December 1, 2025 - January 1, 2026) with 4,284 total measurements."
+3917,o3,728,0.02,0.05,2025/12/01 08:00,2026/01/01 07:00,,,,"Since all data comes from one location, the pollution patterns reflect temporal variations rather than geographic differences."
+3918,so2,689,0,0,2025/12/01 08:00,2026/01/01 07:00,,,,Highest Pollution Dates (Already Identified):
+3919,pm10,737,19.49,106,2025/12/01 08:00,2026/01/01 07:00,,,,The worst pollution occurred on:
+3920,pm25,737,5.74,39.9,2025/12/01 08:00,2026/01/01 07:00,,,,
+25227,co,727,0.26,1.1,2025/12/01 08:00,2026/01/01 07:00,,,,January 1st - Combined PM average of 66.65 µg/m³
+,,,,,,,,,,December 19th - Combined PM average of 60.87 µg/m³
+,,,,,,,,,,December 24th - Combined PM average of 49.56 µg/m³
+week_of,avg_pm10,max_pm10,avg_pm25,max_pm25,combined_avg,days_in_week,,,,December 18th - Absolute peak of 106 µg/m³ PM10
+2025/12/01,10.22,34,3.82,13.7,14.04,7,,,,
+2025/12/08,16.61,70,4.29,14.4,20.9,7,,,,Weekly Pattern Analysis:
+2025/12/15,29.18,106,6.56,20.9,35.74,7,,,,The data shows a clear escalation pattern over the monitoring period:
+2025/12/22,21.44,87,7.23,23.7,28.67,7,,,,
+2025/12/29,19.9,71,7.86,39.9,27.76,4,,,,1. Week of Dec 1-7: Cleanest air - 14.04 µg/m³ combined average
+,,,,,,,,,,2. Week of Dec 8-14: Moderate increase - 20.9 µg/m³ combined average
+,,,,,,,,,,"3. Week of Dec 15-21: Worst week - 35.74 µg/m³ combined average, peak of 106 µg/m³"
+,,,,,,,,,,4. Week of Dec 22-28: Slight improvement - 28.67 µg/m³ combined average
+,,,,,,,,,,"5. Week of Dec 29-Jan 1: Elevated - 27.76 µg/m³ combined average, highest PM2.5 (39.9 µg/m³)"
+,,,,,,,,,,
+,,,,,,,,,,Key Patterns:
+,,,,,,,,,,"Temporal Escalation: Pollution increased 154% from week 1 to week 3, suggesting either:"
+,,,,,,,,,,
+,,,,,,,,,,Seasonal weather pattern changes (winter inversions)
+,,,,,,,,,,Accumulation of particulates over time
+,,,,,,,,,,"Holiday-related activities (heating, travel, fireworks)"
+,,,,,,,,,,
+,,,,,,,,,,"Holiday Spikes: Both December 24th and January 1st show elevated pollution, likely from:"
+,,,,,,,,,,
+,,,,,,,,,,Increased wood burning for heating
+,,,,,,,,,,Holiday celebrations and fireworks
+,,,,,,,,,,Reduced atmospheric mixing during winter
+,,,,,,,,,,
+,,,,,,,,,,"Sensor Performance: All 6 sensors operated consistently throughout the period, with PM10 sensor (3919) recording the most dramatic variations and the absolute peak reading of 106 µg/m³."
+,,,,,,,,,,The single-location nature of this dataset means all patterns reflect atmospheric and temporal factors at this specific New Mexico site rather than geographic variations
